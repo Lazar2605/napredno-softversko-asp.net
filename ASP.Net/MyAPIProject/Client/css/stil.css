@@ -1,0 +1,65 @@
+.profil, .namirnica, .dodajIshranu, .recept, .dodajNamirnicu, .dodajRecept, .dodajTrening, .dodajVezbu{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formaProfil{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: auto;
+    background-color: rgb(135, 132, 134);
+    border-radius: 5%;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    
+}
+
+.zatvori{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    color: white;
+}
+  .naslovProfil{
+    padding-left: 20%;
+    color:white;
+}
+.podacii{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profill {
+    flex-grow: 1 ;
+    text-align: end;
+}
+
+.ishrana , .trening{
+    border: solid black;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    text-align: center;
+    background-color: rgba(71, 98, 152, 0.6);
+  } 
+.divIshranaTab, .divTreningTab {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.promeniBoju {
+    color: aliceblue;
+}
